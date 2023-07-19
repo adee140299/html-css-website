@@ -1,4 +1,8 @@
 
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
 body{
     margin: 0 !important;
     padding: 0;
@@ -59,6 +63,7 @@ body{
          border: none;
          font-size: 16px;
          cursor: pointer;
+         border-radius: 5px;
          
 
      }
@@ -113,12 +118,14 @@ body{
      .slide_heading{
          font-size: 60px;
          
+         
 
      }
      .slide_para{
          font-size: 20px;
          position: relative;
-         top:-30px;
+         top:-50px;
+         left: 20px;
      }
      .container2 {
          display: flex; /* Added flex display */
@@ -151,6 +158,7 @@ body{
          width:550px;
          text-align: center;
          padding: 20px;
+         border-radius: 10px;
          
          
          
@@ -184,10 +192,23 @@ body{
      top: 0px;
      
     }
+    .division4 p{
+        position: relative;
+        top:-20px;
+    }
+    /* .division4 h1{
+        position: relative;
+        left: 80px;
+    } */
+    .division4 p,h1{
+        padding: 10px;
+    }
     #division4_heading1{
      position: relative;
-     top: 40px;
+     top: 20px;
      text-align: center;
+     color: white;
+    
     }
     .container3 {
      display: flex; /* Added flex display */
@@ -196,66 +217,75 @@ body{
    }
     
     .division4_first_div{
-     width: 300px;
-     height: 250px;
+     width: 375px;
+     height: 225px;
      background-color: wheat;
      position: relative;
-     top: 50px;
-     left: 40px;
+     top: 30px;
+     left: 10px;
      text-align: justify;
      padding: 10px;
-     margin-right: 130px;
+     margin-right: -5px;
+     border-radius: 1px;
+     margin-left: 10px;
+     padding-bottom: 10px;
      
      
     }
     .View_more_button1{
      position: relative;
-     top: 30px;
-     left: 90px;
+     top: 5px;
+     left: 100px;
      background-color: green;
          color: white;
          padding: 10px 20px;
          border: none;
          font-size: 16px;
          cursor: pointer;
+         border-radius: 5px;
          
     }
     .View_more_button1:hover{
      opacity: 0.8;
     }
     .division4_second_div{
-     width: 300px;
-     height: 250px;
+     width: 375px;
+     height: 225px;
      background-color: rgb(221, 233, 221);
      position: relative;
-     top: 50px;
+     top: 30px;
      left: 40px;
      text-align: justify;
      padding: 10px;
+     border-radius: 1px;
+     padding-bottom: 10px;
     }
     .divisio4_third_div{
-     width: 300px;
-     height: 275px;
+     width: 375px;
+     height: 250px;
      background-color: wheat;
      position: relative;
-     top: 50px;
+     top: 30px;
      left: 40px;
      text-align: justify;
      padding: 10px;
-     margin-left: 130px;
+     margin-left: 20px;
      box-sizing: border-box;
+     border-radius: 1px;
+     padding-bottom: 50px;
 
     }
   .View_more_button2{
      position: relative;
-     top: 10px;
-     left: 90px;
+     top: -10px;
+     left: 100px;
      background-color: green;
          padding: 10px 20px;
          border: none;
          font-size: 16px;
          cursor: pointer;
-         color:white
+         color:white;
+         border-radius: 5px;
          
     }
     .View_more_button2:hover{
@@ -263,13 +293,15 @@ body{
     }
     .View_more_button3{
      position: relative;
-     left: 90px;
+     top:-20px;
+     left: 100px;
      background-color: green;
      padding: 10px 20px;
          border: none;
          font-size: 16px;
          cursor: pointer;
          color: white;
+         border-radius: 5px;
          
     }
     .View_more_button3:hover{
@@ -362,17 +394,84 @@ body{
  .division5_mega2{
      position: relative;
      top: 30px;
+     left: -10px;
+     
  }
+ .division5_div6{
+    border: 1px solid black;
+     text-align: center;
+     width: 300px;
+     height: 200px;
+     position: relative;
+     top: 20px;
+     left: 20px;
+     background-color: antiquewhite;
+     display: block;
+     float: left;
+     margin-left: 10px;
+ }
+ .division5_div6:hover{
+    opacity: 0.9;
+}
+.division5_div7{
+    border: 1px solid black;
+     text-align: center;
+     width: 300px;
+     height: 200px;
+     position: relative;
+     top: 20px;
+     left: 20px;
+     background-color: antiquewhite;
+     display: block;
+     float: left;
+     margin-left: 10px;
+}
+.division5_div7:hover{
+    opacity: 0.9;
+}
+.division5_div8{
+    border: 1px solid black;
+     text-align: center;
+     width: 300px;
+     height: 200px;
+     position: relative;
+     top: 20px;
+     left: 20px;
+     background-color: antiquewhite;
+     display: block;
+     float: left;
+     margin-left: 10px;
+}
+.division5_div8:hover{
+    opacity: 0.9;
+}
+.division5_div9{
+    border: 1px solid black;
+     text-align: center;
+     width: 300px;
+     height: 200px;
+     position: relative;
+     top: 20px;
+     left: 20px;
+     background-color: antiquewhite;
+     display: block;
+     float: left;
+     margin-left: 10px;
+}
+.division5_div9:hover{
+    opacity: 0.9;
+}
  #division5_view_more{
      position: relative;
-     top:100px;
+     top:60px;
      left: 600px;
      background-color: green;
      padding: 10px 20px;
          border: none;
          font-size: 16px;
          cursor: pointer;
-         color:white
+         color:white;
+         border-radius: 5px;
  }
  #division5_view_more:hover{
      opacity: 0.8;
@@ -381,21 +480,23 @@ body{
      width: 100%;
      background-color: white;
      position: relative;
-     top: 0px;
+     top: 50px;
  }
  #division6_heading1{
      text-align: center;
      color: skyblue;
      position: relative;
-     top: 40px;
+     top:-60px;
+     left: 10px;
     
      
  }
  #map{
      position: relative;
-     top: 30px;
+     top:-40px;
      left: 30px;
      width: 95%;
+     height:auto;
 
  }
  .division7{
@@ -403,7 +504,7 @@ body{
      height: 650px;
      background-color: blue;
      position: relative;
-     top: 40px;
+     top: 0px;
  }
  #division7_heading1{
      text-align: center;
@@ -415,33 +516,36 @@ body{
      display:inline;
  }
  .division7_input_text{
-     width: 400px;
+     width: 600px;
      margin: 10px;
      padding: 10px;
      position: relative;
      top: 30px;
      left: 30px;
+     border-radius: 10px;
 
  }
  .division_textarea{
-     width: 400px;
+     width: 600px;
      margin: 10px;
      padding: 10px;
      position: relative;
      top: 30px;
      left: 30px;
+     border-radius: 10px;
 
  }
  #division7_button{
      background-color: green;
      position: relative;
      top: 40px;
-     left:200px;
+     left:300px;
      padding: 10px 20px;
          border: none;
          font-size: 16px;
          cursor: pointer;
          color: white;
+         border-radius: 5px;
 
  }
  #division7_button:hover{
@@ -453,19 +557,19 @@ body{
      position:relative;
      top: -350px;
      left: -50px;
-     width: 600px;
+     width: 500px;
  }
  .division8{
      width: 100%;
      height:200px;
-     background-color: aqua;
+     background-color:white;
      position: relative;
-     top: 0px;
+     top: 30px;
      padding: 20px 0; 
      
  }
  #bottom_logo{
-     width:200px;
+     width:400px;
      height: 100px;
      position: relative;
      top: 40px;
@@ -481,7 +585,7 @@ body{
      list-style-type: none;
      position: relative;
      top:-80px;
-     left:300px;
+     left:500px;
      display: block;
      
      
@@ -496,7 +600,7 @@ body{
      list-style-type: none;
      position: relative;
      top:-80px;
-     left:400px;
+     left:600px;
      display: block;
  }
  .unorder_list3 li{
@@ -509,7 +613,7 @@ body{
      list-style-type: none;
      position: relative;
      top:-80px;
-     left:500px;
+     left:700px;
      display: block;
  }
  .unorder_list4 li{
@@ -524,7 +628,7 @@ body{
      margin: 5px 2px;
      border-radius: 50%;
      position: relative;
-     top: -120px;
+     top: -100px;
      left:950px;
    }
    
@@ -560,12 +664,15 @@ body{
    }
    #Copyright{
      color: white;
+     position: relative;
+     top:20px;
      
    }
    .Copyright_class{
      background-color: black;
      padding: 30px;
      box-sizing: border-box;
+     height: 125px;
 
    }
 
